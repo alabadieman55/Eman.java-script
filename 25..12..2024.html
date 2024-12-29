@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    // 1-Write a function to find the largest element in an array.
+//     function largestelement(array) {
+//     var larger = array[0]; // افترض أن أول عنصر هو الأطول
+//     for (let i = 1; i < array.length; i++) { // بدء التكرار من العنصر الثاني
+//         if (array[i].length > larger.length) { // قارن أطوال السلاسل النصية
+//             larger = array[i]; // إذا كان العنصر الحالي أطول، قم بتحديث "larger"
+//         }
+//     }
+//     return larger;
+
+// console.log(largestelement(["by", "tr", "car", "air", "github"]));
+
+
+// 2-Write a function to find the smallest element in an array.
+
+// function smallestelement( array){
+
+//     var smallest= array[0]
+//     for(let i=1 ;i> array.length;i++){
+//         if (array [i].lenght > short.lenght){
+//           smallest=array[i] ;  
+//         }
+//     }
+//      return smallest ;
+
+// }console.log(smallestelement(["by", "tr", "car", "air", "github"]));
+
+// 3-Write a function to find the sum of all elements in an array.
+
+// function sum(array) {
+//   let sum = 0;
+//   for(let i = 0; i < array.length; i++) {
+//     sum += array[i];
+    
+//   }
+//   return sum;
+// } console.log(sum([1,2,3,4,4,5,6.10]));
+
+
+// 4-Write a function to find the average of all elements in an array.
+
+
+//     function average(array) {
+//   let sum = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     sum += array[i];
+//   }
+//   return sum / array.length; 
+
+// console.log(average([1, 2, 3, 4, 4, 5, 6.10])); 
+
+
+
+
+// 5-Write a function to find the median of all elements in an array.
+
+// function median(array){
+// var sorted=Array.from(array).sort((a,b)=>a-b);
+// var mid=Math.floor(sorted.length/2);
+// if(sorted.length%2===0){
+// return (sorted[mid-1]+sorted[mid])/2;
+// }
+// else{
+//     return sorted[mid];
+// }
+// }
+// console.log(median([1,2,3,4,5,6,7,8,9,10]));
+
+
+// 6-Write a function to remove all duplicates from an array.
+// function removing(array){
+// var uniq=[...new Set (array)];
+// return uniq;
+// }
+// console.log(removing([1,2,3,4,4,5,6,7,8,9,7,9]));
+
+
+// 7-Write a function to sort an array in ascending order.\\تصاعدي
+// function ascending(array) {
+//     // استخدام دالة للمقارنة لترتيب الأرقام بشكل تصاعدي
+//     array.sort(function(a, b) {
+//         return a - b; // إذا كان a أصغر من b، يتم ترتيب a أولًا
+//     });
+    
+//     return array; // إرجاع المصفوفة بعد الترتيب
+// }
+
+// console.log(ascending([10, 50, 88, 33])); // الإخراج سيكون [10, 33, 50, 88]
+
+
+// 8-Write a function to sort an array in descending order.// تنازلي 
+// function descending(array){
+// array.sort( function(a,b){
+//     return b - a;
+// })
+//  return array;
+// }
+// console.log( descending([10, 50, 88, 33])); 
+
+
+
+
+// 9-Write a function to shuffle the elements of an array randomly.
+
+
+// let shuffle = [3 , 5, 7, 91 , -4 ];
+// function randomly(){
+// for(let i = shuffle.length -1 ; i > 0 ; i-- ){
+// let j = Math.floor(Math.random() * (i +1 ));
+// let k = shuffle[i];
+// shuffle[i] = shuffle[j];
+// shuffle[j] = k ;
+// }
+// }
+// randomly();
+// console.log(  shuffle  );
+
+
+
+</script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
